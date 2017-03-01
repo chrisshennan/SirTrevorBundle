@@ -1,0 +1,3 @@
+#cas_sir_trevor_homepage:
+#    path:     /
+#    defaults: { _controller: CasSirTrevorBundle:Default:index }

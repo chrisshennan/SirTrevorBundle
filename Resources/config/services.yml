@@ -1,0 +1,6 @@
+services:
+services:
+    cas_sir_trevor.twig:
+        class: Cas\SirTrevorBundle\Twig\Extension\SirTrevorExtension
+        tags:
+            - { name: twig.extension }

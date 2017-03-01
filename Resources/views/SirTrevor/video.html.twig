@@ -1,0 +1,7 @@
+<div class="video-container">
+    {% if (content.source == 'youtube') %}
+        <iframe src="//www.youtube.com/embed/{{ content.remote_id }}" frameborder="0" allowfullscreen></iframe>
+    {% elseif (content.source == 'vimeo') %}
+        <iframe src="https://player.vimeo.com/video/{{ content.remote_id }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {% endif %}
+</div>
